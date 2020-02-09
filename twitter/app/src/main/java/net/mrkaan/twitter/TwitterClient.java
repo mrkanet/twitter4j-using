@@ -32,10 +32,10 @@ public class TwitterClient extends AppCompatActivity {
             //farklı yöntemler ile de set edilme yapılabilir
             cb = new ConfigurationBuilder();
             cb.setDebugEnabled(true)
-                    .setOAuthConsumerKey("h6KzJHN6YoHEsZ9FB7VT24bOB")
-                    .setOAuthConsumerSecret("rDF1sFuDg7iblPgBXBMWs75N7USs3Muc9FSz7GZTSOd23e4tNg")
-                    .setOAuthAccessToken("928254305915883520-3NkYEq9g3rNFjeqaAXyYRR7E700Nn2g")
-                    .setOAuthAccessTokenSecret("oDzsB8RzSjUTWDu35lnZBxhvZG7IayRMlRyjRgqVFgFx1");
+                    .setOAuthConsumerKey()
+                    .setOAuthConsumerSecret()
+                    .setOAuthAccessToken()
+                    .setOAuthAccessTokenSecret89();
             //bağlantı kurulup istek atmak için kullanılacak nesne çağrılıyor
             //twitter = (new TwitterFactory(cb.build())).getInstance(); // bu da çalışıyor
             tf = new TwitterFactory(cb.build());
